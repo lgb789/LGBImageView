@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBImageView_Example' do
+  pod 'LGBImageView', :path => '../'
+
+  target 'LGBImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
